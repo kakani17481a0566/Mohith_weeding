@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="valentine.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="jumbotron">
+      <h1 class="display-4">MOHITH KAKANI</h1>
+      <p class="lead">You're cordially invited to celebrate Niharika and Mohith's special day filled with love and happiness.</p>
+      <hr class="my-4">
+      <h1>Engagement Details</h1>
+      <p>📅 Date: 21st April</p>
+      <p>📍 Venue: Vaaraahi Banquets, Hyderabad</p>
+      <p>🌐 Location Link: <a href="https://maps.google.com">Vaaraahi Banquets, Hyderabad</a></p>
+       
+      <button class="btn btn-success mr-2" id="comingButton">I am coming</button>
+      <button class="btn btn-danger" id="notComingButton">Not coming</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("comingButton").addEventListener("click", function() {
+      window.location.href = "second.html"; // Redirect to second.html
+    });
+
+    document.getElementById("notComingButton").addEventListener("click", function() {
+      window.location.href = "second.html"; // Redirect to second.html
+    });
+</script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

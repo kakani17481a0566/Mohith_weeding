@@ -1,0 +1,43 @@
+body {
+    /* background-image: url('https://res.cloudinary.com/kakani7/image/upload/v1711898332/prank/gjc3zscnfw7x7mu5jrqu.jpg'); */
+    /* https://res.cloudinary.com/kakani7/image/upload/v1711898530/prank/asvrq3aspp71bo9escst.jpg */
+background-image: url('https://res.cloudinary.com/kakani7/image/upload/v1711898696/prank/kxklq3ayznmvr2gyyuvg.jpg');
+    /* background-size: rep;
+    background-position: center;
+    background-repeat: no-repeat; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adding transparency to the container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #c41e3a;
+  }
+  
+  p {
+    color: #4b4b4b;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c41e3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #a5192e;
+  }
+  
