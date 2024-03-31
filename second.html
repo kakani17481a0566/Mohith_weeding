@@ -17,6 +17,7 @@
         }
         .container {
             position: relative;
+            text-align: center; /* Center align content */
         }
         img {
             max-width: 100%;
@@ -24,8 +25,8 @@
         }
         .back-button {
             position: absolute;
-            top: 10px; /* Adjust top position as needed */
-            left: 50%; /* Position button in the center horizontally */
+            top: 5px; /* Adjust top position as needed */
+            left: 80%; /* Position button in the center horizontally */
             transform: translateX(-50%); /* Center button horizontally */
             background-color: #4CAF50;
             border: none;
@@ -37,6 +38,7 @@
             font-size: 16px;
             cursor: pointer;
             border-radius: 10px;
+            z-index: 1; /* Ensure button appears above the image */
         }
     </style>
 </head>
