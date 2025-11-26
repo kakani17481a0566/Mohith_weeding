@@ -1,41 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MOHITH Wedding Invitation</title>
+  <title>Mohith & Niharika | Wedding Invitation</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="valentine.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #fdfbf7;
+    }
+
+    h1,
+    h2,
+    .display-4 {
+      font-family: 'Great Vibes', cursive;
+      color: #d4af37;
+      /* Gold color */
+    }
+
+    .jumbotron {
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-custom {
+      background-color: #d4af37;
+      color: white;
+      border: none;
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #b39028;
+      color: white;
+    }
+  </style>
 </head>
+
 <body>
   <div class="container mt-5">
-    <div class="jumbotron">
-      <h1 class="display-4">MOHITH KAKANI</h1>
-      <p class="lead">You're cordially invited to celebrate Niharika and Mohith's special day filled with love and happiness.</p>
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Mohith & Niharika</h1>
+      <p class="lead mt-3">Together with their families, invite you to celebrate their engagement.</p>
       <hr class="my-4">
-      <h1>Engagement Details</h1>
-      <p>📅 Date: 21st April</p>
-      <p>📍 Venue: Vaaraahi Banquets, Hyderabad</p>
-      <p>🌐 Location Link: <a href="https://maps.google.com">Vaaraahi Banquets, Hyderabad</a></p>
-       
-      <button class="btn btn-success mr-2" id="comingButton">I am coming</button>
-      <button class="btn btn-danger" id="notComingButton">Not coming</button>
+      <h2>Save the Date</h2>
+      <p class="lead"><strong>21st April</strong></p>
+      <p>Vaaraahi Banquets, Hyderabad</p>
+
+      <div class="mt-5">
+        <p>Please confirm your presence:</p>
+        <button class="btn btn-custom mr-3" id="comingButton">Accept with Pleasure</button>
+        <button class="btn btn-secondary" id="notComingButton">Decline with Regret</button>
+      </div>
     </div>
   </div>
 
   <script>
-    document.getElementById("comingButton").addEventListener("click", function() {
-      window.location.href = "second.html"; // Redirect to second.html
+    document.getElementById("comingButton").addEventListener("click", function () {
+      window.location.href = "second.html";
     });
 
-    document.getElementById("notComingButton").addEventListener("click", function() {
-      window.location.href = "second.html"; // Redirect to second.html
+    document.getElementById("notComingButton").addEventListener("click", function () {
+      window.location.href = "second.html";
     });
-</script>
-
+  </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
